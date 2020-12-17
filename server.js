@@ -1,7 +1,7 @@
 var express = require('express')
 var app = express()
 var path = require('path')
-const PORT = 3000
+var PORT = process.env.PORT || 3000
 
 var users = [
     { id: 1, log: 'login', pass: 'haslo', wiek: 99, uczen: "", plec: 'm' },
