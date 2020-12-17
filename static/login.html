@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div id = "navdiv">
+        <ul id = "navbar">
+            <li id = "navli"><a href="main" id="nava">Main</a></li>
+            <li id = "navli"><a href="register" id="nava">register</a></li>
+            <li id = "navli"><a href="login" id="nava">login</a></li>
+            <li id = "navli"><a href="admin" id="nava">Admin</a></li>
+          </ul>
+        </div>
+      <br>
+      <h1>LOGIN</h1><br>
+      <form action="/LoginAttempt">
+        <div id="loginDiv">
+        <label for="log">Login: </label><br>
+        <input type="text" name="log" id="inputLog" placeholder="login" required><br>
+        <label for="pass">Hasło: </label><br>
+        <input type="password" name="pass" id="inputPass" placeholder="hasło" required><br>
+        <input type="submit" value="submit" id="submitInput">
+        </div>
+    </form>
+</body>
+</html>
